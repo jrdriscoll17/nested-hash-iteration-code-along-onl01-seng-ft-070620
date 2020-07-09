@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if key == favorite_ice_cream_flavors
       favorite_ice_cream_flavors.each_with_index do |flavor, index| 
         if flavor == "strawberry"
-          favorite_ice_cream_flavors.delete_at_index(index)
+          favorite_ice_cream_flavors.delete_at(index)
         end
       end
     end
